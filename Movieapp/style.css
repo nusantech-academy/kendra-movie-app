@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(83, 83, 83);
+    height: 60px;
+    opacity: 0.8;
+    font-family: 'Convergence', sans-serif;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 80px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+    font-size: 21px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rancho', cursive;
+}
+
+.container-judul img {
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.container-judul h1 {
+    position: absolute;
+    color: white;
+}
+
+.content {
+    margin: 20px 30px;
+}
+
+.content h1 {
+    color: blue;
+}
+
+.container-card h1 {
+    color: red;
+}
+
+.container-card {
+    margin: 10px 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.list-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 313px;
+    height: 420px;
+}
+
+.container-card2 h1 {
+    color: red;
+}
+
+.container-card2 {
+    margin: 10px 30px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.card2 img {
+    width: 313px;
+    height: 420px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.email-form input {
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 7px;
+    border: none;
+    border: 2px solid darkblue;
+    padding: 6px;
+}
+
+.email-form .cinema img {
+    width: 700px;
+    height: 600px;
+}
+
+.form h1 {
+    color: darkblue;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.form h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    width: 100px;
+    height: 25px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 7px;
+    background-color: darkcyan;
+}
+
+.title-form {
+    margin: 10px 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(46, 203, 255);
+    margin-top: 50px;
+}
+
+
+.footer img {
+    height: 20px;
+    width: 20px;
+}
+
+
